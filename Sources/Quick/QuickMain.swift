@@ -29,3 +29,4 @@ public func QCKMain(_ specs: [QuickSpec.Type],
 
     XCTMain(specs.flatMap { testCase($0.allTests) } + testCases)
 }
+#endif
